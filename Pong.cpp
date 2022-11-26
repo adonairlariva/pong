@@ -32,7 +32,7 @@ int main(){
     do{ //abrimos un ciclo while que se ejecutara mientras la variable jugar = true, este valor puede cambiar si el jugador desea salir del juego.
 
         if((ganador && gameover) == false){
-
+ 
             if(actualizar ==  1){ //comprobamos si el valor de actualizar es igual a 1 actualizamos los datos de la pantalla.
                 system("cls"); //comando para borrar la pantalla anterior y mostrar la nueva.
 
